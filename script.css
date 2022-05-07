@@ -1,0 +1,49 @@
+.circle {
+    padding: 15px 25px;
+  font-size: 100px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #576d65;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.circle:hover {background-color: #c21414}
+.circle:active {
+    background-color: #c21414;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.container{
+  width: 400px;
+  height: 10px;
+  padding: 50px;
+  border-radius: 8px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 75%;
+  left: 50%;
+  background-color: rgba(150, 155, 160, 0.897);
+  box-shadow: 0 15px 35px rgba(150, 155, 160, 0.897);
+}
+
+.container img{
+  width: 50px;
+  height: auto;
+}
+ .shake{
+   animation: shake 0.5s infintie;
+ }
+ @keyframes shake{
+   0%{
+     transform: rotate(8deg);
+   }
+   50%{
+     transform: rotate(-8deg);
+   }
+   100%{
+     transform: rotate(8deg);
+   }
+ }

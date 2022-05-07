@@ -1,0 +1,1 @@
+This is a an internet Cee-Lo game. The idea is to allow the user to have die and shuffle them to recreate the physcial dice game. The rules are set to show the user how to play with another player. The goal is to make the roll button fubctional to make the dice shuffle instead.
